@@ -152,7 +152,7 @@ header{
     background-color: #F20607;
     transition: 0.4s;
     border-radius: 6px;
-    border: none;
+    border: none !important;
 }
 
 .p-content button:hover{
@@ -314,9 +314,6 @@ header{
     padding-bottom: 40px;
 }
 
-.offer2-desc{
-
-}
 
 .offer2-desc h5{
     color: #070211;
@@ -388,8 +385,6 @@ header{
     position: absolute;
     bottom: 0px;
 }
-
-
 
 
 /* Portfolio section css */
