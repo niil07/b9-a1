@@ -152,6 +152,7 @@ header{
     background-color: #F20607;
     transition: 0.4s;
     border-radius: 6px;
+    border: none;
 }
 
 .p-content button:hover{
@@ -395,7 +396,7 @@ header{
 
 .portfolio{
     width: 100%;
-    padding: 60px 0px;
+    padding: 100px 0px;
 }
 
 .port-1 h5{
