@@ -284,6 +284,92 @@ header{
 
 /* Offer2 section css */
 
+.offer2{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.offer2-desc{
+    text-align: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.offer2-desc{
+
+}
+
+.offer2-desc h5{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.offer2-desc h2{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 24px 0px;
+}
+
+.offer2-desc h2 span{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.offer2-desc p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.offer-img{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color: ;
+}
+
+.img1{
+    position: absolute;
+    right: 268px;
+}
+
+
+.img2{
+    position: absolute;
+    right: 0px;
+    top: -62px;
+}
+
+.img3{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;;
+}
+
+.img4{
+    position: absolute;
+    bottom: 0px;
+}
+
+
 
 
 /* Portfolio section css */
