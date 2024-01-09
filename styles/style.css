@@ -152,7 +152,7 @@ header{
     background-color: #F20607;
     transition: 0.4s;
     border-radius: 6px;
-    border: none !important;
+    border: none;
 }
 
 .p-content button:hover{
