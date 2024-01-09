@@ -120,7 +120,7 @@ header{
 
 .p-content h2{
     color: #FFF;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
@@ -130,30 +130,31 @@ header{
 
 .p-content p{
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    margin: 36px 0px;
+    margin: 36px 0px 42px;
 }
 
-.p-content a{
+.p-content button{
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 12px 24px;
+    padding: 16px 24px;
     background-color: #F20607;
     transition: 0.4s;
+    border-radius: 6px;
 }
 
-.p-content a:hover{
+.p-content button:hover{
     color: #F20607;
     background-color: #FFF;
     transition: 0.4s;
@@ -182,7 +183,7 @@ header{
 .event-content p span{
     color: #F00;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -192,7 +193,7 @@ header{
 
 .event-content p{
     color: #070211;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -200,30 +201,47 @@ header{
     text-transform: capitalize;
 }
 
+.event-content button{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 16px 24px;
+    background-color: #F20607;
+    transition: 0.4s;
+    margin-top: 40px;
+    border: none;
+    border-radius: 6px;
+}
+
+.event-content button:hover{
+    color: #F20607;
+    background-color: #FFF;
+    transition: 0.4s;
+    border: 2px solid #F20607;
+}
+
 /* Upcoming section css */
 
 .upcoming{
     width: 100%;
-    padding: 40px 0px;
+    padding: 100px 0px;
 }
 
 .u-content{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-}
-
-.u-left, .u-middle, .u-right{
-    padding-left: 20px;
-}
-
-.u-middle{
-
 }
 
 .u-left h5{
     color: #F00;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -232,7 +250,7 @@ header{
 
 .u-left h4{
     color: #070211;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -243,7 +261,7 @@ header{
 
 .u-left p{
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -260,7 +278,7 @@ header{
 
 .u-right h4{
     color: #F00;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -270,7 +288,7 @@ header{
 
 .u-right p{
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -280,7 +298,7 @@ header{
 .u-right img{
     max-width: 100%;
     height: auto;
-}
+} */
 
 /* Offer2 section css */
 
@@ -301,7 +319,7 @@ header{
 
 .offer2-desc h5{
     color: #070211;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -311,7 +329,7 @@ header{
 .offer2-desc h2{
     color: #F00;
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
@@ -321,7 +339,7 @@ header{
 
 .offer2-desc h2 span{
     color: #070211;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
@@ -331,7 +349,7 @@ header{
 .offer2-desc p{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -360,8 +378,9 @@ header{
 
 .img3{
     position: absolute;
-    bottom: 40px;
-    left: 60px;;
+    bottom: 36px;
+    left: 85px;
+    width: 550px;
 }
 
 .img4{
@@ -381,7 +400,7 @@ header{
 
 .port-1 h5{
     color: #F00;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -390,7 +409,7 @@ header{
 
 .port-1 h3{
     color: #070211;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -401,7 +420,7 @@ header{
 
 .port-1 p{
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -446,7 +465,7 @@ header{
 .subs-content h2{
     color: #070211;
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -458,7 +477,7 @@ header{
 .subs-content p{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -478,7 +497,7 @@ header{
 .subs-content input[type="email"]::placeholder{
     color: rgba(7, 2, 17, 0.30);
     text-align: left;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -523,7 +542,7 @@ footer{
 
 .footer-1 address, .f-1-right span{
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -538,7 +557,7 @@ footer{
 }
 
 .footer-2{
-    margin: 40px 0px;
+    margin: 60px 0px;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -559,7 +578,7 @@ footer{
 
 .footer-3 span, a{
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
